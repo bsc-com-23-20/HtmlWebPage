@@ -2,9 +2,9 @@ header{
     display:flex;
     align-items:center;
     justify-content: space-between;
-    background-color: floralwhite;
-    color: aliceblue;
-    padding: 10px;
+    background-color: rgb(224, 196, 139);
+    color: rgb(114, 144, 170);
+    padding: 60px;
 }
 
 nav ul{
@@ -39,8 +39,12 @@ align-items: center;
 margin-right: 40px;
 
 }
+h2{
+    align-content: center;
+    align-items: center;
+}
 body {
-	font-family: Arial, sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin: 0;
 	padding: 0;
 }
