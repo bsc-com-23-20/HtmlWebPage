@@ -10,11 +10,11 @@ header{
 nav ul{
     display: flex;
     font-display: initial;
-    list-style: outside;
+    list-style: none;
 
 }
 nav li{
-    margin-right: 10px;
+    margin-left: 30px;
 }
 nav a {
     text-decoration: burlywood;
@@ -31,7 +31,7 @@ img {
 }
 
 
-h1
+h3
 {
 color: rgb(180, 110, 153);
 align-content: center;
@@ -49,6 +49,7 @@ body {
 section{
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
 }
 section article{
     flex-basis: 100px;
@@ -57,20 +58,18 @@ section article{
     padding: 60px;
     border-radius: 30px;
     
+    
 }
-section article h2{
+section article h3{
     align-content: center;
     align-items: center;
     margin-right: 40px;
-    width: 100px;
-    height: 100px;
-
+    
 
 }
 section article p{
     align-content: center;
     align-items: center;
     margin-right: 40px;
-    width: 100px;
-    height: 100px;
+   
 }
